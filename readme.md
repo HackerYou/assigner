@@ -2,7 +2,7 @@
 
 To install:
 
-	npm init
+	npm install
 
 To Work on it
 
