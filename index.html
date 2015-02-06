@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teaching Assigner!</title>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+
+  <div class="groups"></div>
+
+  <script id="entry-template" type="text/x-handlebars-template">
+    {{#groups}}
+      <div class="group">
+        <h3>{{teacher}}</h3>
+        <ul>
+          {{#students}}
+            <li>{{.}}</li>
+          {{/students}}
+        </ul>
+      </div>
+    {{/groups}}
+  </script>
+
+  <script src="js/handlebars-v2.0.0.js"></script>
+  <script src="dist/all.js"></script>
+</body>
+</html>
