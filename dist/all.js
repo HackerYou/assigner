@@ -70,12 +70,12 @@ var Assigner = (function () {
 })();
 
 var teachers = ["Uncle Drew", "Wes"];
-var projects = ["Master", "Luxen", "Solido", "Pioneer"];
+var projects = ["Zap", "Trada", "Alica"];
 
-var students = ["Allison Tarr", "Andrea Crofts", "Anna MacKenzie", "Hannah Ng", "Heather Banks", "Ian McIlwain", "Jenny Veens", "Jeremy North-Lewis", "Jordan Deutsch", "Jordyn Marcellus", "Karley MacDonald", "Kate Hillier", "Kevin LeClair", "Laura Naccarato", "Lisa Folkerson", "Lucas Lemonface", "Nate Ebel", "Omar Rahman", "Ross Butcher", "Sarah Lesh", "Steph Laba", "Trudy MacNabb", "Vivien Ilett", "Winston Chow", "Tammy Kim", "Sarah Hunter"];
+var students = ["Abena Asomaning", "Alessandro Nahon", "Alex Janssen", "Drew Thompson", "Brad Carmichael", "Daniel Pierre", "Fiona Huang", "Greg McKenzie", "Hesam Jabbari Sahebari", "Jackie Evershed", "Jaymie Rosen", "Jennifer Taylor", "Joy Liu", "Kristen Kriens", "Ksenia Veriguina", "Leah Conway", "Lindsie Canton", "Mark Hill", "Maureen Holland", "Megan Mitchell", "Nick Spencer", "Noah Endale", "Ranjan Subbiah", "Rose Gauthier", "Trevor Stone", "Vlad Baranov", "William Stanton"];
 
 // pass the assigner a circle array (teacher, project, classroom..) and an array of students
-var ass = new Assigner(teachers, students);
+var ass = new Assigner(projects, students);
 ass.assignStudentsToTeachers();
 ass.display("#entry-template", ".groups");
 ass.animate(".group li");
